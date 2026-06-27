@@ -27,3 +27,28 @@ Users can add, edit, delete and manage their books easily. All data is stored in
 ---
 
 ## 📁 Project Structure
+
+src/
+├── components/
+├── pages/
+├── App.jsx
+├── main.jsx
+
+
+---
+
+## 📸 Screenshots
+
+### Home Page
+![Home Page](image1.png)
+
+### Book List / Dashboard
+![Book List](image2.png)
+
+---
+
+## ⚙️ Installation & Run
+
+```bash
+npm install
+npm run dev
