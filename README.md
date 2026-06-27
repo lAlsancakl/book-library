@@ -26,16 +26,6 @@ Users can add, edit, delete and manage their books easily. All data is stored in
 
 ---
 
-## 📁 Project Structure
-
-src/
-├── components/
-├── pages/
-├── App.jsx
-├── main.jsx
-
-
----
 
 ## 📸 Screenshots
 
