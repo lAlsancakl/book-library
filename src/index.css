@@ -1,0 +1,49 @@
+@import 'tailwindcss';
+
+:root {
+  font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #f8fafc;
+  background-color: #0f1025;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  background-color: #0f1025;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: #0f1025;
+  background-image:
+    radial-gradient(circle at 10% 20%, rgba(129, 140, 248, 0.42), transparent 24%),
+    radial-gradient(circle at 90% 12%, rgba(244, 114, 182, 0.35), transparent 24%),
+    radial-gradient(circle at 50% 100%, rgba(56, 189, 248, 0.24), transparent 30%),
+    linear-gradient(135deg, #0f1025 0%, #171c35 45%, #24163d 100%);
+  background-attachment: fixed;
+  color: #f8fafc;
+}
+
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  background: linear-gradient(120deg, rgba(255,255,255,0.16), rgba(255,255,255,0), rgba(255,255,255,0.12));
+  mix-blend-mode: screen;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#root {
+  min-height: 100vh;
+  background: transparent;
+}
